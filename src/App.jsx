@@ -1,0 +1,25 @@
+{
+  "name": "kaucjonator",
+  "version": "1.0.0",
+  "description": "Aplikacja licząca zebrane butelki i kaucję w czasie rzeczywistym",
+  "private": true,
+  "type": "module",
+  "homepage": "https://smelin777.github.io/Kaucjonator",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "recharts": "^2.12.7"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.1",
+    "vite": "^5.4.0",
+    "gh-pages": "^6.1.1"
+  }
+}
